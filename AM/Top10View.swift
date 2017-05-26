@@ -39,7 +39,7 @@ class Top10View: UIViewController, NSURLConnectionDelegate, UIPickerViewDataSour
     var progressLabel: UILabel?
     var timer: Timer?
         
-    var yearPickerData = ["2014","2015","2016"]
+    var yearPickerData = ["2014","2015","2016","2017"]
     var sortOrder = "asc"
 
    
@@ -59,7 +59,7 @@ class Top10View: UIViewController, NSURLConnectionDelegate, UIPickerViewDataSour
         
         yearPicker.delegate = self
         yearPicker.dataSource = self
-        yearPicker.selectRow(2, inComponent: 0, animated: true)
+        yearPicker.selectRow(3, inComponent: 0, animated: true)
         grabData()
 
         

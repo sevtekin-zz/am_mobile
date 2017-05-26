@@ -1,0 +1,208 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+	<title>Import Records</title>
+</h:head>
+<h:body>
+	<h:form id="menu">
+		<p:menubar
+			style="border: 1px solid gray;background-size: 100%;background-color:#eeeeee;">
+			<p:menuitem value="Home" url="./home.jsf" icon="ui-icon-home" />
+			<p:submenu label="Cash Management" icon="ui-icon-contact"
+				style="background-size: 100%;background-color:#eeeeee;">
+				<p:menuitem value="Cash Entry" url="./cashEntry.jsf"
+					icon="ui-icon-calculator" />
+				<p:menuitem value="Cash Flow" url="./cashFlow.jsf"
+					icon="ui-icon-shuffle" />
+				<p:menuitem value="Estimates" url="./estimates.jsf"
+					icon="ui-icon-calculator" />
+				<p:menuitem value="Reports" icon="ui-icon-image" url="./reports.jsf" />
+				<p:menuitem value="Import" url="./import.jsf"
+					icon="ui-icon-arrowthickstop-1-s" />
+			</p:submenu>
+			<p:submenu label="Administration" icon="ui-icon-gear"
+				style="background-size: 100%;background-color:#eeeeee;">
+				<p:menuitem value="Categories" icon="ui-icon-note"
+					url="./categories.jsf"
+					style="background-size: 100%;background-color:#eeeeee;" />
+				<p:menuitem value="Owners" icon="ui-icon-person" url="./owners.jsf"
+					style="background-size: 100%;background-color:#eeeeee;" />
+				<p:menuitem value="Snapshots" icon="ui-icon-arrowthickstop-1-s" url="./snapshots.jsf"
+					style="background-size: 100%;background-color:#eeeeee;" />
+			</p:submenu>
+			<f:facet name="options">
+				<p:commandButton value="#{siteBean.user}" icon="ui-icon-power"
+						action="#{siteBean.logout}" />
+			</f:facet>
+		</p:menubar>
+		<f:event listener="#{importBean.initialize}" type="preRenderView" />
+	</h:form>
+	
+
+	<h:form id="formUpload" enctype="multipart/form-data">
+		<p:fieldset>
+			<p:fileUpload fileUploadListener="#{importBean.uploadFiles}"
+				mode="advanced" auto="true" dragDropSupport="true" multiple="false"
+				update=":form:cashTable :form:messages" sizeLimit="100000000"
+				allowTypes="/(\.|\/)(csv|CVS)$/" />
+		</p:fieldset>
+	</h:form>
+
+	<h:form id="form">
+		<br />
+		<p:growl id="messages" showDetail="true" />
+
+		<p:fieldset>
+			<table>
+				<tr>
+					<td><p:fieldset legend="Category">
+							<h:selectOneMenu value="#{importBean.categoryFilter.id}">
+								<f:selectItems value="#{importBean.categoryFilters}"
+									var="category" itemLabel="#{category.name}"
+									itemValue="#{category.id}" />
+							</h:selectOneMenu>
+							<br />
+							<p:commandButton id="applyCategoryAll" value="APPLY TO ALL"
+								action="#{importBean.applyCategoryToAll}" process=":form"
+								update=":form">
+							</p:commandButton>
+							<p:commandButton id="applyCategorySelected"
+								value="APPLY TO SELECTED"
+								action="#{importBean.applyCategoryToSelected}" process=":form"
+								update=":form">
+							</p:commandButton>
+						</p:fieldset></td>
+					<td><p:fieldset legend="Owner">
+							<h:selectOneMenu value="#{importBean.ownerFilter.id}">
+								<f:selectItems value="#{importBean.ownerFilters}" var="owner"
+									itemLabel="#{owner.name}" itemValue="#{owner.id}" />
+							</h:selectOneMenu>
+							<br />
+							<p:commandButton id="applyOwnerAll" value="APPLY TO ALL"
+								action="#{importBean.applyOwnerToAll}" process=":form"
+								update=":form">
+							</p:commandButton>
+							<p:commandButton id="applyOwnerSelected"
+								value="APPLY TO SELECTED"
+								action="#{importBean.applyOwnerToSelected}" process=":form"
+								update=":form">
+							</p:commandButton>
+						</p:fieldset></td>
+					<td><p:fieldset legend="Import">
+							<br />
+							<p:commandButton id="importSelectedButton"
+								value="IMPORT SELECTED" icon="ui-icon-disk"
+								actionListener="#{importBean.importSelected}" process=":form"
+								update=":form">
+							</p:commandButton>
+						</p:fieldset></td>
+					<td><p:fieldset legend="Remove">
+							<br />
+							<p:commandButton id="removeSelectedButton"
+								value="REMOVE SELECTED" icon="ui-icon-disk"
+								action="#{importBean.removeSelected}" process=":form"
+								update=":form:cashTable">
+							</p:commandButton>
+						</p:fieldset></td>
+				</tr>
+			</table>
+		</p:fieldset>
+		<br />
+		<p:fieldset>
+			<p:dataTable var="entry" value="#{importBean.importEntries}"
+				id="cashTable" editable="true" widgetVar="table"
+				rowIndexVar="rowIndex" columnIndexVar="columnIndex"
+				rowKey="#{entry.id}" selection="#{importBean.selectedEntries}"
+				resizableColumns="true">
+				<p:ajax event="rowEdit" listener="#{importBean.updateCashEntry}"
+					update=":form:cashTable" />
+				<p:ajax event="rowDblselect" listener="#{importBean.addKeyword}"
+					update=":form:keywordDialog" />
+				<p:column selectionMode="multiple" style="width:2%" />
+				<p:column headerText="#" style="width:3%">
+        				#{rowIndex}
+   					 </p:column>
+				<p:column style="width:3%">
+					<f:facet name="header">Edit
+            			</f:facet>
+					<p:rowEditor />
+				</p:column>
+				<p:column headerText="Actual Date" style="width:10%"
+					sortBy="#{entry.actualdate}">
+					<h:outputText value="#{entry.actualdate}">
+						<f:convertDateTime pattern="MM/dd/yyyy" />
+					</h:outputText>
+				</p:column>
+				<p:column headerText="Description" style="width:45%"
+					sortBy="#{entry.description}">
+					<h:outputText value="#{entry.description}" />
+				</p:column>
+				<p:column headerText="Amount" style="width:10%"
+					sortBy="#{entry.amount}">
+					<h:outputText value="#{entry.amount}">
+						<f:convertNumber currencySymbol="$" type="currency"
+							maxFractionDigits="2" />
+					</h:outputText>
+				</p:column>
+				<p:column headerText="Category" style="width:25%"
+					sortBy="#{entry.categoryEntry.name}">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{entry.categoryEntry.name}" />
+						</f:facet>
+						<f:facet name="input">
+							<h:selectOneMenu value="#{entry.categoryEntry.name}"
+								style="width:100%">
+								<f:selectItems value="#{importBean.categoryEntries}"
+									var="category" itemLabel="#{category.name}"
+									itemValue="#{category.name}" />
+							</h:selectOneMenu>
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+				<p:column headerText="Owner" style="width:15%"
+					sortBy="#{ownerEntry.name}">
+					<p:cellEditor>
+						<f:facet name="output">
+							<h:outputText value="#{entry.ownerEntry.name}" />
+						</f:facet>
+						<f:facet name="input">
+							<h:selectOneMenu value="#{entry.ownerEntry.name}"
+								style="width:100%">
+								<f:selectItems value="#{importBean.ownerEntries}" var="owner"
+									itemLabel="#{owner.name}" itemValue="#{owner.name}" />
+							</h:selectOneMenu>
+						</f:facet>
+					</p:cellEditor>
+				</p:column>
+			</p:dataTable>
+		</p:fieldset>
+		<p:dialog header="Add Keywords" id="keywordDialog"
+			widgetVar="keywordDialog" showEffect="explode" hideEffect="explode"
+			modal="true">
+			<p:messages id="msgs" showDetail="true" autoUpdate="true"
+				closable="true" />
+			<h:panelGrid id="add" columns="2" cellpadding="4"
+				style="margin:0 auto;">
+				<h:outputText value="Keyword:" style="font-weight:bold" />
+				<p:inputTextarea rows="10" cols="50" id="inputKeyword"
+					value="#{importBean.selectedKeyword}" />
+				<h:outputText value="Category: " style="font-weight:bold" />
+				<h:outputText id="selectedCat"
+					value="#{importBean.selectedCategory.name}    "
+					style="font-weight:bold" />
+				<h:outputText value="    " style="font-weight:bold" />
+				<p:growl id="msg" showDetail="true" />
+				<p:commandButton id="addDButton" value="SAVE" icon="ui-icon-disk"
+					action="#{importBean.addKeywordEntry}" type="submit"
+					update=":form:keywordDialog" process=":form" />
+			</h:panelGrid>
+		</p:dialog>
+	</h:form>
+
+
+
+</h:body>
+</html>

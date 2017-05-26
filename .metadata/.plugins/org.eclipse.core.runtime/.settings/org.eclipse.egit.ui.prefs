@@ -1,0 +1,2 @@
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\n<messages>\n<message>moved the repo</message>\n<message>added the demo app&\#x0A;</message>\n<message>login</message>\n<message>removed daily indicator&\#x0A;added mysql to the service docker file</message>\n<message>fix for uppercase cvs filename</message>\n</messages>
+eclipse.preferences.version=1
