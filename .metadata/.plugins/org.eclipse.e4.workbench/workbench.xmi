@@ -77,10 +77,24 @@
           <tags>persp.viewSC:org.eclipse.wb.core.StructureView</tags>
           <tags>persp.viewSC:org.eclipse.wb.core.PaletteView</tags>
           <tags>persp.perspSC:org.eclipse.wst.jsdt.ui.JavaPerspective</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_lRDyBdxXEeaS4MxMMBN7HA" selectedElement="_lRDyEdxXEeaS4MxMMBN7HA" horizontal="true">
+          <tags>persp.actionSet:com.ibm.rational.welcome.core.webResourcesActionSet</tags>
+          <tags>persp.actionSet:com.ibm.team.filesystem.shortcuts</tags>
+          <tags>persp.actionSet:com.ibm.team.filesystem.shortcuts.locateChangeSets</tags>
+          <tags>persp.actionSet:com.ibm.team.foundation.rcp.ui.OpenArtifactFromClipboard</tags>
+          <tags>persp.actionSet:com.ibm.team.fulltext.ide.ui.JazzArtifactsSearch</tags>
+          <tags>persp.actionSet:com.ibm.team.fulltext.ide.ui.JazzTeamArtifactHistory</tags>
+          <tags>persp.actionSet:com.ibm.team.jazzhub.client.actionSet</tags>
+          <tags>persp.actionSet:com.ibm.team.process.ui.actionSet</tags>
+          <tags>persp.actionSet:com.ibm.team.workitem.rcp.ui.OpenFavoriteSet</tags>
+          <tags>persp.actionSet:com.ibm.team.workitem.ide</tags>
+          <tags>persp.actionSet:com.ibm.magnolia.workitems.searchActionSet</tags>
+          <tags>persp.actionSet:com.ibm.teamz.supa.finder.ui.quicksearch</tags>
+          <tags>persp.actionSet:com.ibm.team.workitem.ide.ShowFeeds</tags>
+          <children xsi:type="basic:PartSashContainer" xmi:id="_lRDyBdxXEeaS4MxMMBN7HA" selectedElement="_lRDyBtxXEeaS4MxMMBN7HA" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_lRDyBtxXEeaS4MxMMBN7HA" containerData="3281" selectedElement="_lRDyB9xXEeaS4MxMMBN7HA">
               <children xsi:type="basic:PartStack" xmi:id="_lRDyB9xXEeaS4MxMMBN7HA" elementId="left" containerData="6000" selectedElement="_lRDyCNxXEeaS4MxMMBN7HA">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_lRDyCNxXEeaS4MxMMBN7HA" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_lRDzbdxXEeaS4MxMMBN7HA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_lRDyCdxXEeaS4MxMMBN7HA" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_lRDzi9xXEeaS4MxMMBN7HA"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_lRDyCtxXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_lRDzjNxXEeaS4MxMMBN7HA"/>
@@ -150,7 +164,6 @@
       <children xsi:type="basic:PartStack" xmi:id="_lRDzWdxXEeaS4MxMMBN7HA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_-699sBR5Eee-Rrdm3bVtSQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_sq4uwAtIEee8gbp5YEGJqQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Dockerfile" iconURI="platform:/plugin/org.eclipse.ui.editors/icons/full/obj16/file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;Dockerfile&quot; partName=&quot;Dockerfile&quot; title=&quot;Dockerfile&quot; tooltip=&quot;com.sevtekin.am.docker/dev/service/Dockerfile&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/com.sevtekin.am.docker/dev/service/Dockerfile&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;55&quot; selectionOffset=&quot;322&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -210,15 +223,15 @@
           <tags>Editor</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_lRDzbdxXEeaS4MxMMBN7HA" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.png" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1479319480145&quot;>&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xA;&lt;xmlDefinedFilters>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;/xmlDefinedFilters>&#xA;&lt;/customFilters>&#xA;&lt;/view>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1479319480145&quot;>&#xA;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;>&#xA;&lt;xmlDefinedFilters>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/>&#xA;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/>&#xA;&lt;/xmlDefinedFilters>&#xA;&lt;/customFilters>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_lRDzbtxXEeaS4MxMMBN7HA" elementId="org.eclipse.jdt.ui.PackageExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -335,11 +348,20 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lRDzqNxXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_tF8GABZfEee8rLtZ4o8kdQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_lRFE59xXEeaS4MxMMBN7HA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FoppgGNREeelSsFrc2-bSg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_lRFE59xXEeaS4MxMMBN7HA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lRDzt9xXEeaS4MxMMBN7HA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_lRDzuNxXEeaS4MxMMBN7HA" elementId="additions" toBeRendered="false"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_FzkgEGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.ide">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_FzZg8GNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.ide.ShowFeeds">
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_FzuREGNREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.finder.ui.quicksearch">
+        <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lRDz4NxXEeaS4MxMMBN7HA" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
@@ -365,7 +387,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lRDz_9xXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_tF-iQBZfEee8rLtZ4o8kdQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_lRFElNxXEeaS4MxMMBN7HA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_ForesGNREeelSsFrc2-bSg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_lRFElNxXEeaS4MxMMBN7HA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lRD0C9xXEeaS4MxMMBN7HA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -389,9 +411,16 @@
       </children>
     </trimBars>
     <trimBars xmi:id="_lRD0HdxXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.trim.status" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_Fx0MkGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.rcp.ui.SearchBarGroup" contributorURI="platform:/plugin/com.ibm.team.workitem.rcp.ui" toBeRendered="false"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_Fx0MkWNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.rcp.ui.SearchBar" contributorURI="platform:/plugin/com.ibm.team.workitem.rcp.ui" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.LegacyTrim"/>
       <children xsi:type="menu:ToolControl" xmi:id="_lRD0HtxXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>stretch</tags>
       </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_Fx0MkmNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.rcp.ui.WorkitemActivationGroup" contributorURI="platform:/plugin/com.ibm.team.workitem.rcp.ui" toBeRendered="false"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_Fx0Mk2NREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.rcp.ui.WorkitemActivationTrim" contributorURI="platform:/plugin/com.ibm.team.workitem.rcp.ui" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.LegacyTrim"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_FxzlgGNREeelSsFrc2-bSg" elementId="com.ibm.team.metronome.group" contributorURI="platform:/plugin/com.ibm.team.metronome" toBeRendered="false"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_FxzlgmNREeelSsFrc2-bSg" elementId="com.ibm.team.metronome.trim.metronome" contributorURI="platform:/plugin/com.ibm.team.metronome" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.LegacyTrim"/>
+      <children xsi:type="menu:ToolControl" xmi:id="_FxzlgWNREeelSsFrc2-bSg" elementId="com.ibm.team.metronome.trim.traffic" contributorURI="platform:/plugin/com.ibm.team.metronome" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.LegacyTrim"/>
       <children xsi:type="menu:ToolControl" xmi:id="_lRD0H9xXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.HeapStatus" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>Draggable</tags>
       </children>
@@ -870,7 +899,18 @@
       <parameters xmi:id="_lREZcNxXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.debug.ui.VariableView"/>
     </bindings>
     <bindings xmi:id="_FtZI4AwYEeepVcVMRzWQaQ" keySequence="ALT+COMMAND+X G" command="_FstzcQwYEeepVcVMRzWQaQ"/>
-    <bindings xmi:id="_szviwRZfEee8rLtZ4o8kdQ" keySequence="COMMAND+CTRL+F" command="_lRFnlNxXEeaS4MxMMBN7HA"/>
+    <bindings xmi:id="_FSM4YGNREeelSsFrc2-bSg" keySequence="ALT+SHIFT+D D" command="_FRpez2NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSNfcmNREeelSsFrc2-bSg" keySequence="ALT+CTRL+F" command="_FRqF0GNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSRw4GNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+F12" command="_FRpe92NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSRw4WNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+F11" command="_FRpexGNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSTmEGNREeelSsFrc2-bSg" keySequence="ALT+CTRL+W" command="_FRpe2WNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSTmEWNREeelSsFrc2-bSg" keySequence="CTRL+SHIFT+3" command="_FRpfCWNREeelSsFrc2-bSg">
+      <tags>platform:cocoa</tags>
+    </bindings>
+    <bindings xmi:id="_FSVbQmNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+F10" command="_FRpe7GNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSX3gGNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+F9" command="_FRpe52NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSZssGNREeelSsFrc2-bSg" keySequence="ALT+SHIFT+X D" command="_FRo3s2NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSpkUGNREeelSsFrc2-bSg" keySequence="COMMAND+CTRL+F" command="_lRFnlNxXEeaS4MxMMBN7HA"/>
   </bindingTables>
   <bindingTables xmi:id="_lREZctxXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.serverViewScope" bindingContext="_lREafdxXEeaS4MxMMBN7HA">
     <bindings xmi:id="_lREZc9xXEeaS4MxMMBN7HA" keySequence="ALT+COMMAND+D" command="_lRFEWtxXEeaS4MxMMBN7HA"/>
@@ -1138,7 +1178,7 @@
     <bindings xmi:id="_lREaHNxXEeaS4MxMMBN7HA" keySequence="F1" command="_lRFB5dxXEeaS4MxMMBN7HA"/>
   </bindingTables>
   <bindingTables xmi:id="_lREaHdxXEeaS4MxMMBN7HA" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_lREahdxXEeaS4MxMMBN7HA">
-    <bindings xmi:id="_szwJ0BZfEee8rLtZ4o8kdQ" keySequence="M1+W" command="_lRFnltxXEeaS4MxMMBN7HA"/>
+    <bindings xmi:id="_FSpkUWNREeelSsFrc2-bSg" keySequence="M1+W" command="_lRFnltxXEeaS4MxMMBN7HA"/>
   </bindingTables>
   <bindingTables xmi:id="_lREaH9xXEeaS4MxMMBN7HA" bindingContext="_lREajdxXEeaS4MxMMBN7HA"/>
   <bindingTables xmi:id="_lREaINxXEeaS4MxMMBN7HA" bindingContext="_lREajtxXEeaS4MxMMBN7HA"/>
@@ -1191,6 +1231,99 @@
   <bindingTables xmi:id="_lREaT9xXEeaS4MxMMBN7HA" bindingContext="_lREavdxXEeaS4MxMMBN7HA"/>
   <bindingTables xmi:id="_lREaUNxXEeaS4MxMMBN7HA" bindingContext="_lREavtxXEeaS4MxMMBN7HA"/>
   <bindingTables xmi:id="_lREaUdxXEeaS4MxMMBN7HA" bindingContext="_lREav9xXEeaS4MxMMBN7HA"/>
+  <bindingTables xmi:id="_FSH_4GNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.extendedRichText.context" bindingContext="_FRsiEWNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSJOAGNREeelSsFrc2-bSg" keySequence="CTRL+B" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSJ1EmNREeelSsFrc2-bSg" keySequence="CTRL+SHIFT+A" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSKcIGNREeelSsFrc2-bSg" keySequence="CTRL+A" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSMRUGNREeelSsFrc2-bSg" keySequence="CTRL+SPACE" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSOGgGNREeelSsFrc2-bSg" keySequence="CTRL+F" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSQixGNREeelSsFrc2-bSg" keySequence="CTRL+C" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSSX8GNREeelSsFrc2-bSg" keySequence="CTRL+X" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSS_AGNREeelSsFrc2-bSg" keySequence="CTRL+Y" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSWCUWNREeelSsFrc2-bSg" keySequence="CTRL+V" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSWpYmNREeelSsFrc2-bSg" keySequence="CTRL+Z" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSX3gmNREeelSsFrc2-bSg" keySequence="CTRL+I" command="_FRpfDmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSX3g2NREeelSsFrc2-bSg" keySequence="DEL" command="_FRpfDmNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSJOAWNREeelSsFrc2-bSg" elementId="com.ibm.team.feed.ui.EventLogContext" bindingContext="_FRsiJGNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSJOAmNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+C" command="_FRo3tGNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSOtkmNREeelSsFrc2-bSg" keySequence="COMMAND+SPACE" command="_FRpew2NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSWCUmNREeelSsFrc2-bSg" keySequence="COMMAND+R" command="_FRpe_2NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSXQcGNREeelSsFrc2-bSg" keySequence="SPACE" command="_FRpfAmNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSJ1EGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.mywork" bindingContext="_FRsiFGNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSJ1EWNREeelSsFrc2-bSg" keySequence="ALT+ARROW_RIGHT" command="_FRpewmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSOtkWNREeelSsFrc2-bSg" keySequence="COMMAND+A" command="_lRFDZtxXEeaS4MxMMBN7HA"/>
+    <bindings xmi:id="_FSRJ0GNREeelSsFrc2-bSg" keySequence="F4" command="_FRpe3WNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSX3hGNREeelSsFrc2-bSg" keySequence="SHIFT+F4" command="_FRpe-2NREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSLDMGNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.styledEditingScope" bindingContext="_FRsiE2NREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSLDMWNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+A" command="_FRpfAGNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSPUoGNREeelSsFrc2-bSg" keySequence="COMMAND+B" command="_FRpe72NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSVbQWNREeelSsFrc2-bSg" keySequence="COMMAND+I" command="_FRpfBGNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSWCUGNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+Q" command="_FRo3uGNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSLqQGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.common" bindingContext="_FRsiGGNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSLqQWNREeelSsFrc2-bSg" keySequence="ALT+ARROW_DOWN" command="_FRpexWNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSOtkGNREeelSsFrc2-bSg" keySequence="COMMAND+A" command="_lRFDZtxXEeaS4MxMMBN7HA"/>
+    <bindings xmi:id="_FSP7sGNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+D" command="_FRpfCmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSP7sWNREeelSsFrc2-bSg" keySequence="COMMAND+SHIFT+I" command="_FRpe9WNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSUNIGNREeelSsFrc2-bSg" keySequence="COMMAND+CR" command="_FRpe7mNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSZFoGNREeelSsFrc2-bSg" keySequence="ALT+ARROW_UP" command="_FRpe32NREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSLqQmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.mywork.currentWork" bindingContext="_FRsiI2NREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSLqQ2NREeelSsFrc2-bSg" keySequence="ALT+ARROW_DOWN" command="_FRpexWNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSUNImNREeelSsFrc2-bSg" keySequence="COMMAND+CR" command="_FRpe7mNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSZFoWNREeelSsFrc2-bSg" keySequence="ALT+ARROW_UP" command="_FRpe32NREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSNfcGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.editing.pages" bindingContext="_FRsiHmNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSNfcWNREeelSsFrc2-bSg" keySequence="COMMAND+J" command="_FRo3t2NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSVbQGNREeelSsFrc2-bSg" keySequence="COMMAND+I" command="_FRpexmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSX3gWNREeelSsFrc2-bSg" keySequence="COMMAND+L" command="_FRpe_WNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSQiwGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.outline.plannedItems" bindingContext="_FRsiGmNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSQiwWNREeelSsFrc2-bSg" keySequence="SHIFT+TAB" command="_FRpfCmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSS_AWNREeelSsFrc2-bSg" keySequence="TAB" command="_FRpe9WNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSWpYWNREeelSsFrc2-bSg" keySequence="ALT+CR" command="_FRpe8WNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSQiwmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.editing.summary" bindingContext="_FRsiImNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSQiw2NREeelSsFrc2-bSg" keySequence="SHIFT+TAB" command="_FRpfCmNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSS_AmNREeelSsFrc2-bSg" keySequence="TAB" command="_FRpe9WNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSUNIWNREeelSsFrc2-bSg" keySequence="COMMAND+CR" command="_FRpe7mNREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSUNI2NREeelSsFrc2-bSg" keySequence="CR" command="_FRpe12NREeelSsFrc2-bSg"/>
+    <bindings xmi:id="_FSYekGNREeelSsFrc2-bSg" keySequence="ESC" command="_FRpe02NREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSRJ0WNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ui.changes.views.LocalWorkspaceChangesView.context" bindingContext="_FRsiEGNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSRJ0mNREeelSsFrc2-bSg" keySequence="F4" command="_FRpe7WNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSUNJGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.query.context.quicksearch" bindingContext="_FRsiEmNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSUNJWNREeelSsFrc2-bSg" keySequence="CR" command="_FRo3sGNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSUNJmNREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.finder.query.context.quicksearch" bindingContext="_FRsiIWNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSUNJ2NREeelSsFrc2-bSg" keySequence="CR" command="_FRpfBmNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSWCU2NREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.query" bindingContext="_FRsiIGNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSWpYGNREeelSsFrc2-bSg" keySequence="COMMAND+R" command="_FRo3tmNREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FSYekWNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.editing.description" bindingContext="_FRsiHGNREeelSsFrc2-bSg">
+    <bindings xmi:id="_FSYekmNREeelSsFrc2-bSg" keySequence="ESC" command="_FRpe12NREeelSsFrc2-bSg"/>
+  </bindingTables>
+  <bindingTables xmi:id="_FniPMWNREeelSsFrc2-bSg" bindingContext="_FniPMGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_Fni2QWNREeelSsFrc2-bSg" bindingContext="_Fni2QGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_Fni2Q2NREeelSsFrc2-bSg" bindingContext="_Fni2QmNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnjdUWNREeelSsFrc2-bSg" bindingContext="_FnjdUGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnjdU2NREeelSsFrc2-bSg" bindingContext="_FnjdUmNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnjdVWNREeelSsFrc2-bSg" bindingContext="_FnjdVGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnjdV2NREeelSsFrc2-bSg" bindingContext="_FnjdVmNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnjdWWNREeelSsFrc2-bSg" bindingContext="_FnjdWGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnkEYWNREeelSsFrc2-bSg" bindingContext="_FnkEYGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnkEY2NREeelSsFrc2-bSg" bindingContext="_FnkEYmNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnkEZWNREeelSsFrc2-bSg" bindingContext="_FnkEZGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnkEZ2NREeelSsFrc2-bSg" bindingContext="_FnkEZmNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnkEaWNREeelSsFrc2-bSg" bindingContext="_FnkEaGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnkrcWNREeelSsFrc2-bSg" bindingContext="_FnkrcGNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_Fnkrc2NREeelSsFrc2-bSg" bindingContext="_FnkrcmNREeelSsFrc2-bSg"/>
+  <bindingTables xmi:id="_FnkrdWNREeelSsFrc2-bSg" bindingContext="_FnkrdGNREeelSsFrc2-bSg"/>
   <rootContext xmi:id="_lREaUtxXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_lREaU9xXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_lREaVNxXEeaS4MxMMBN7HA" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -1231,6 +1364,8 @@
         </children>
         <children xmi:id="_lREaddxXEeaS4MxMMBN7HA" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties Files" description="Editing Properties Files Context"/>
         <children xmi:id="_lREadtxXEeaS4MxMMBN7HA" elementId="org.eclipse.jst.jsf.facesconfig.editorContext" name="In Faces Config Editor" description="Key binding context when using the Faces Config Editor"/>
+        <children xmi:id="_FRsiEWNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.extendedRichText.context" name="Rich Text Editor"/>
+        <children xmi:id="_FRsiHmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.editing.pages" name="Editing Attached Pages" description="Editing Attached Pages"/>
       </children>
       <children xmi:id="_lREad9xXEeaS4MxMMBN7HA" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
       <children xmi:id="_lREaeNxXEeaS4MxMMBN7HA" elementId="org.eclipse.debug.ui.memoryview" name="In Memory View" description="In memory view"/>
@@ -1247,6 +1382,30 @@
       <children xmi:id="_lREagtxXEeaS4MxMMBN7HA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" name="In Tasks View"/>
       <children xmi:id="_lREag9xXEeaS4MxMMBN7HA" elementId="org.eclipse.buildship.ui.contexts.taskview" name="In Gradle Tasks View" description="This context is activated when the Gradle Tasks view is in focus"/>
       <children xmi:id="_lREahNxXEeaS4MxMMBN7HA" elementId="org.eclipse.egit.ui.RepositoriesView" name="In Git Repositories View"/>
+      <children xmi:id="_FRsiEGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ui.changes.views.LocalWorkspaceChangesView.context" name="Pending Changes"/>
+      <children xmi:id="_FRsiEmNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.query.context.quicksearch" name="Quick Search Trim" description="Quick Search Trim"/>
+      <children xmi:id="_FRsiE2NREeelSsFrc2-bSg" elementId="com.ibm.magnolia.styledEditingScope" name="Editing Styled Text" description="When editing styled text"/>
+      <children xmi:id="_FRsiFGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.mywork" name="In My Work View" description="In My Work View">
+        <children xmi:id="_FRsiFWNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.mywork.inbox" name="Organizing Inbox" description="Organizing Inbox"/>
+        <children xmi:id="_FRsiF2NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.mywork.futureWork" name="Organizing Future Work" description="Organizing Future Work"/>
+        <children xmi:id="_FRsiI2NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.mywork.currentWork" name="Organizing Current Work" description="Organizing Current Work"/>
+      </children>
+      <children xmi:id="_FRsiFmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.mywork.preview" name="Previewing Work Items" description="Previewing Work Items"/>
+      <children xmi:id="_FRsiGGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.common" name="In Plans" description="In Plans">
+        <children xmi:id="_FRsiGWNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.outline" name="Browsing Plans" description="Browsing Plans">
+          <children xmi:id="_FRsiGmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.outline.plannedItems" name="Planned Items Page" description="Planned Items Page">
+            <children xmi:id="_FRsiG2NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.editing" name="Editing Plans" description="Editing Plans">
+              <children xmi:id="_FRsiHGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.editing.description" name="Editing Work Item Description" description="Editing Work Item Description"/>
+              <children xmi:id="_FRsiImNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.editing.summary" name="Editing Work Item Summary" description="Editing Work Item Summary"/>
+            </children>
+          </children>
+          <children xmi:id="_FRsiH2NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlanEditor.outline.bars" name="Planned Items Page" description="Planned Items Page"/>
+        </children>
+      </children>
+      <children xmi:id="_FRsiHWNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.commands" name="Collaborating With Team" description="Collaborating with team"/>
+      <children xmi:id="_FRsiIGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.query" name="In Queries"/>
+      <children xmi:id="_FRsiIWNREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.finder.query.context.quicksearch" name="Quick Search Trim" description="Quick Search Trim"/>
+      <children xmi:id="_FRsiJGNREeelSsFrc2-bSg" elementId="com.ibm.team.feed.ui.EventLogContext" name="In Event Log" description="In Event Log of Team Dashboard"/>
     </children>
     <children xmi:id="_lREahdxXEeaS4MxMMBN7HA" elementId="org.eclipse.ui.contexts.dialog" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs" description="A dialog is open"/>
     <children xmi:id="_lREahtxXEeaS4MxMMBN7HA" elementId="org.chromium.debug.ui.editors.JsEditor.context" name="Chromium Debug" description="Debug Chromium JavaScript"/>
@@ -1310,6 +1469,22 @@
   <rootContext xmi:id="_lREav9xXEeaS4MxMMBN7HA" elementId="winterwell.markdown.actionSet" name="Auto::winterwell.markdown.actionSet"/>
   <rootContext xmi:id="_FswPsAwYEeepVcVMRzWQaQ" elementId="org.eclipse.wst.wsdl.ui.editor.sourceView" name="WSDL Editor Source View" description="WSDL Editor Source View"/>
   <rootContext xmi:id="_FswPsQwYEeepVcVMRzWQaQ" elementId="org.eclipse.wst.wsdl.ui.editor.designView" name="WSDL Editor Design View" description="WSDL Editor Design View"/>
+  <rootContext xmi:id="_FniPMGNREeelSsFrc2-bSg" elementId="com.ibm.rational.welcome.core.webResourcesActionSet" name="Auto::com.ibm.rational.welcome.core.webResourcesActionSet"/>
+  <rootContext xmi:id="_Fni2QGNREeelSsFrc2-bSg" elementId="com.ibm.team.internal.apt.actionSet.planItems" name="Auto::com.ibm.team.internal.apt.actionSet.planItems"/>
+  <rootContext xmi:id="_Fni2QmNREeelSsFrc2-bSg" elementId="com.ibm.team.connector.scm.cc.ide.ui.views.SCMConnectorActionSet" name="Auto::com.ibm.team.connector.scm.cc.ide.ui.views.SCMConnectorActionSet"/>
+  <rootContext xmi:id="_FnjdUGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.ide.ShowFeeds" name="Auto::com.ibm.team.workitem.ide.ShowFeeds"/>
+  <rootContext xmi:id="_FnjdUmNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.shortcuts" name="Auto::com.ibm.team.filesystem.shortcuts"/>
+  <rootContext xmi:id="_FnjdVGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.shortcuts.locateChangeSets" name="Auto::com.ibm.team.filesystem.shortcuts.locateChangeSets"/>
+  <rootContext xmi:id="_FnjdVmNREeelSsFrc2-bSg" elementId="com.ibm.team.foundation.rcp.ui.OpenArtifactFromClipboard" name="Auto::com.ibm.team.foundation.rcp.ui.OpenArtifactFromClipboard"/>
+  <rootContext xmi:id="_FnjdWGNREeelSsFrc2-bSg" elementId="com.ibm.team.fulltext.ide.ui.JazzArtifactsSearch" name="Auto::com.ibm.team.fulltext.ide.ui.JazzArtifactsSearch"/>
+  <rootContext xmi:id="_FnkEYGNREeelSsFrc2-bSg" elementId="com.ibm.team.fulltext.ide.ui.JazzTeamArtifactHistory" name="Auto::com.ibm.team.fulltext.ide.ui.JazzTeamArtifactHistory"/>
+  <rootContext xmi:id="_FnkEYmNREeelSsFrc2-bSg" elementId="com.ibm.team.jazzhub.client.actionSet" name="Auto::com.ibm.team.jazzhub.client.actionSet"/>
+  <rootContext xmi:id="_FnkEZGNREeelSsFrc2-bSg" elementId="com.ibm.team.process.ui.actionSet" name="Auto::com.ibm.team.process.ui.actionSet"/>
+  <rootContext xmi:id="_FnkEZmNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.rcp.ui.OpenFavoriteSet" name="Auto::com.ibm.team.workitem.rcp.ui.OpenFavoriteSet"/>
+  <rootContext xmi:id="_FnkEaGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.ide" name="Auto::com.ibm.team.workitem.ide"/>
+  <rootContext xmi:id="_FnkrcGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.ide.templates" name="Auto::com.ibm.team.workitem.ide.templates"/>
+  <rootContext xmi:id="_FnkrcmNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.workitems.searchActionSet" name="Auto::com.ibm.magnolia.workitems.searchActionSet"/>
+  <rootContext xmi:id="_FnkrdGNREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.finder.ui.quicksearch" name="Auto::com.ibm.teamz.supa.finder.ui.quicksearch"/>
   <descriptors xmi:id="_lREawNxXEeaS4MxMMBN7HA" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>
@@ -1640,6 +1815,122 @@
   <descriptors xmi:id="_lREbEtxXEeaS4MxMMBN7HA" elementId="winterwell.markdown.views.MarkdownPreview" label="Markdown View" iconURI="platform:/plugin/winterwell.markdown/icons/notepad.gif" tooltip="" category="Markdown" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <tags>View</tags>
     <tags>categoryTag:Markdown</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX8UAGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.internal.ui.myWorkView" label="My Work" iconURI="platform:/plugin/com.ibm.team.apt.ide.ui/icons/view16/my_work.gif" tooltip="" category="Work Items" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Work Items</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX9iIGNREeelSsFrc2-bSg" elementId="com.ibm.team.build.internal.ui.views.query.BuildQueryView" label="Builds" iconURI="platform:/plugin/com.ibm.team.build.ui/icons/obj16/build.gif" tooltip="" category="Team Build" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team Build</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX9iIWNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.internal.chatView" label="Chat" iconURI="platform:/plugin/com.ibm.team.collaboration.chat.rcp.ui/icons/full/view16/chat.gif" tooltip="" category="Collaboration" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Collaboration</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX-JMGNREeelSsFrc2-bSg" elementId="com.ibm.team.connector.scm.cc.ide.ui.views.syncstreamview.SyncStreamView" label="ClearCase Synchronized Streams" iconURI="platform:/plugin/com.ibm.team.connector.scm.cc.ide.ui/icons/view16/ccworksync_view.gif" tooltip="" category="Jazz Source Control" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Jazz Source Control</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX-JMWNREeelSsFrc2-bSg" elementId="com.ibm.team.enterprise.automation.internal.ui.view.SelectResultView" label="Queried Results" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX-wQGNREeelSsFrc2-bSg" elementId="com.ibm.team.enterprise.build.ui.views.DependencySetView" label="Dependency Set" iconURI="platform:/plugin/com.ibm.team.enterprise.build.ui/icons/obj16/dependencysetview.png" tooltip="" category="Enterprise Extensions" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Enterprise Extensions</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX_XUGNREeelSsFrc2-bSg" elementId="com.ibm.team.enterprise.build.ui.subset.views.BuildSubsetFilesView" label="Build Subset Files" iconURI="platform:/plugin/com.ibm.team.enterprise.build.ui/icons/obj16/buildsubset.gif" tooltip="" category="Enterprise Extensions" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Enterprise Extensions</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX_XUWNREeelSsFrc2-bSg" elementId="com.ibm.team.enterprise.build.ui.subset.views.BuildSubsetView" label="Build Subsets" iconURI="platform:/plugin/com.ibm.team.enterprise.build.ui/icons/obj16/buildsubset.gif" tooltip="" category="Enterprise Extensions" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Enterprise Extensions</tags>
+  </descriptors>
+  <descriptors xmi:id="_FX_-YGNREeelSsFrc2-bSg" elementId="com.ibm.team.enterprise.build.ui.views.BuildMapQueryView" label="Build Map Query Results" iconURI="platform:/plugin/com.ibm.team.enterprise.build.ui/icons/view16/buildmapsearch_view16.gif" tooltip="" category="Enterprise Extensions" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Enterprise Extensions</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYAlcGNREeelSsFrc2-bSg" elementId="com.ibm.team.enterprise.metadata.query.ui.view.QueryView" label="Source Code Data" iconURI="platform:/plugin/com.ibm.team.enterprise.metadata.query.ui/icons/view16/resource_result.gif" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYAlcWNREeelSsFrc2-bSg" elementId="com.ibm.team.enterprise.scd.ide.ui.view.ScanQueryView" label="Scan Results" iconURI="platform:/plugin/com.ibm.team.enterprise.scd.ide.ui/icons/obj16/scanResultView.gif" tooltip="" category="Other" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Other</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYBMgGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ce.ChangeSummaryView" label="Change Summary" iconURI="platform:/plugin/com.ibm.team.filesystem.ide.ui/icons/obj16/change-summary_obj.gif" tooltip="" allowMultiple="true" category="Jazz Source Control" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Jazz Source Control</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYBzkGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.history.FileSystemView" label="Repository Files" iconURI="platform:/plugin/com.ibm.team.filesystem.ide.ui/icons/view16/filesystem_view.gif" tooltip="" allowMultiple="true" category="Jazz Source Control" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Jazz Source Control</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYBzkWNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ui.changes.views.ChangeExplorerView" label="Change Explorer" iconURI="platform:/plugin/com.ibm.team.filesystem.ide.ui/icons/view16/chg_explor_view.gif" tooltip="" allowMultiple="true" category="Jazz Source Control" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Jazz Source Control</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYCaoGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ui.changes.views.LocalWorkspaceChangesView" label="Pending Changes" iconURI="platform:/plugin/com.ibm.team.filesystem.ide.ui/icons/view16/pend_chg_view.gif" tooltip="" category="Jazz Source Control" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Jazz Source Control</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYDBsGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ui.changes.views.ScmPropertiesView" label="Jazz SCM Properties" iconURI="platform:/plugin/com.ibm.team.filesystem.ide.ui/icons/view16/prop_view.gif" tooltip="" allowMultiple="true" category="Jazz Source Control" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Jazz Source Control</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYDBsWNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.TeamCentral" label="Team Dashboard" iconURI="platform:/plugin/com.ibm.team.foundation.rcp.ui/icons/view16/teamcentral.gif" tooltip="" category="Collaboration" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Collaboration</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYDowGNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.workItemPreview" label="Preview" iconURI="platform:/plugin/com.ibm.team.foundation.rcp.ui/icons/view16/wi_preview.gif" tooltip="" category="General" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:General</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYDowWNREeelSsFrc2-bSg" elementId="com.ibm.team.interop.syncRulesView" label="Synchronization Rules" iconURI="platform:/plugin/com.ibm.team.interop.ide.ui/icons/view16/syncrule_nav.gif" tooltip="" category="Team" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYDowmNREeelSsFrc2-bSg" elementId="com.ibm.team.interop.syncStatusView" label="Synchronization Status" iconURI="platform:/plugin/com.ibm.team.interop.ide.ui/icons/view16/syncstatus_nav.gif" tooltip="" category="Team" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYEP0GNREeelSsFrc2-bSg" elementId="com.ibm.team.process.operationAdviceView" label="Team Advisor" iconURI="platform:/plugin/com.ibm.team.process.ide.ui/icons/view16/tadv.gif" tooltip="" category="Team" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYE24GNREeelSsFrc2-bSg" elementId="com.ibm.team.process.projectAreaExplorer" label="Team Organization" iconURI="platform:/plugin/com.ibm.team.process.ide.ui/icons/view16/team_organization.gif" tooltip="" category="Team" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYE24WNREeelSsFrc2-bSg" elementId="com.ibm.team.process.processTemplateExplorer" label="Process Templates" iconURI="platform:/plugin/com.ibm.team.process.ide.ui/icons/obj16/processtemplate_obj.gif" tooltip="" category="Team" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYFd8GNREeelSsFrc2-bSg" elementId="com.ibm.team.process.rcp.ui.teamArtifactsNavigator" label="Team Artifacts" iconURI="platform:/plugin/com.ibm.team.process.rcp.ui/icons/view16/artifact_nav.gif" tooltip="" category="Team" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Team</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYFd8WNREeelSsFrc2-bSg" elementId="com.ibm.team.scm.svn.rcp.ui.SvnConnectionsView" label="Jazz SVN Connections" iconURI="platform:/plugin/com.ibm.team.scm.svn.rcp.ui/icons/view16/jazz_connect_view.gif" tooltip="" category="Jazz Source Control" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Jazz Source Control</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYGFAGNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.workItemExplorer" label="Work Items" iconURI="platform:/plugin/com.ibm.team.workitem.rcp.ui/icons/view16/wi_explorer.gif" tooltip="" allowMultiple="true" category="Work Items" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Work Items</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYGsEGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.rcp.ui.WorkItemTagView" label="Tag Cloud" iconURI="platform:/plugin/com.ibm.team.workitem.rcp.ui/icons/view16/cloudview.gif" tooltip="" allowMultiple="true" category="Work Items" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Work Items</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYGsEWNREeelSsFrc2-bSg" elementId="com.ibm.teami.filesystem.ide.ui.compare.views.CompareRemoteView" label="Compare with IBM i Libraries" iconURI="platform:/plugin/com.ibm.teamp.filesystem.ide.ui/icons/obj16/compare_view.gif" tooltip="" category="Jazz Source Control" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Jazz Source Control</tags>
+  </descriptors>
+  <descriptors xmi:id="_FYGsEmNREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.quick.search.view" label="Context-Aware Quick Search" iconURI="platform:/plugin/com.ibm.teamz.supa.finder.ui/icons/ctx_search.gif" tooltip="" category="Context-Aware Search" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+    <tags>View</tags>
+    <tags>categoryTag:Context-Aware Search</tags>
   </descriptors>
   <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
     <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
@@ -2843,6 +3134,139 @@
   <commands xmi:id="_GIvBEAwYEeepVcVMRzWQaQ" elementId="AUTOGEN:::org.eclipse.wst.wsdl.wsdlsource.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Add Bookmark..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
   <commands xmi:id="_GIvBEQwYEeepVcVMRzWQaQ" elementId="AUTOGEN:::org.eclipse.wst.wsdl.wsdlsource.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Select Ruler" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
   <commands xmi:id="_GIwPMAwYEeepVcVMRzWQaQ" elementId="AUTOGEN:::org.eclipse.ui.articles.action.contribution.view/org.eclipse.wst.wsi.ui.internal.actions.actionDelegates.ValidateWSIProfileActionDelegate" commandName="WS-I Profile Validator" description="Validate WS-I Message Log File" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRo3sGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.query.command.quicksearch.execute" commandName="Quick Search" description="Search ID or text" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRo3sWNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.send.clipboard" commandName="Send Clipboard" description="Sends the clipboard content to the selected users" category="_FRoQoWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRo3smNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.openRemoteFile" commandName="Open Remote File" description="Opens the remote file" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRo3s2NREeelSsFrc2-bSg" elementId="com.google.cloud.dataflow.eclipse.ui.launcher.launchPipelineShortcut.run" commandName="Dataflow Pipeline" category="_lRFoS9xXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRo3tGNREeelSsFrc2-bSg" elementId="com.ibm.team.feed.ui.MarkAllReadEventLogAction" commandName="Mark All Read" description="Marks all news of the event log in team dashboard as read." category="_FRoQqGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRo3tWNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.quickquery.colorize" commandName="Quick Colorize" description="Enables the quick colorize mode" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRo3tmNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.query.run" commandName="Run Query" description="Run a work item query" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRo3t2NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.wiki.createWorkItem" commandName="Create Work Item" description="Creates a new work item" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRo3uGNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.edit.model.query.selection" commandName="Quick Query" description="Query selected Text" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpewGNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.ide.ui.edit.extractworkitem" commandName="Extract Work Item" description="Extract Work Item from selected Text" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpewWNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.edit.model.remove.occurrences" commandName="Remove Occurrences" description="Remove Occurrence Annotations" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpewmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.myWork.expandPlanningTools" commandName="Show Work Time" description="Shows the work time of a work item" category="_FRoQpmNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpew2NREeelSsFrc2-bSg" elementId="com.ibm.team.feed.ui.MarkReadAndSelectNextUnreadAction" commandName="Mark Read &amp; Select Next Unread" description="Marks the selected events of the event log in team dashboard as read and selects the next unread event if present." category="_FRoQqGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpexGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.deliver" commandName="Deliver" description="Deliver" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpexWNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.move.down" commandName="Move Down" description="Moves a work item down" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpexmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.wiki.findSimilarWorkItems" commandName="Find Similar Work Items" description="Finds work items containing the selected text" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpex2NREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.showBaselines" commandName="Show Baselines" description="Show the baselines in the selected component's configuration." category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpeyGNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.send.file" commandName="Send File" description="Sends a file to the selected users" category="_FRoQoWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpeyWNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ui.command.changeFlowTarget" commandName="Change Flow Target" description="Select a stream or a workspace to accept changes from and deliver changes to." category="_FRoQomNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpeymNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.compareWith" commandName="Compare With" description="Compares the selected versionable with another configuration" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpey2NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.setup.ui.wizard.newexample" commandName="New Team Concert Example Project" description="Creates a new Team Concert example project" category="_lRFoQ9xXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpezGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.expandChildren" commandName="Expand Children" description="Expands the children of the selected element" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpezWNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ui.changes.command.showRepositoryFiles" commandName="Show Repository Files" description="Browse through the folders and files in the selected component's configuration." category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpezmNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.SyncZoomAction.SUSPENDED" commandName="Show Suspended Work Items" description="Show suspended changes grouped by work item. User can conveniently browse through their suspended changes regardless of the component they originate from." category="_FRoQomNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpez2NREeelSsFrc2-bSg" elementId="com.google.cloud.dataflow.eclipse.ui.launcher.launchPipelineShortcut.debug" commandName="Dataflow Pipeline" category="_lRFoS9xXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpe0GNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.chat.contributor" commandName="Chat" description="Initiates a chat with the selected users" category="_FRoQoWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe0WNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.lockVersionable" commandName="Lock" description="Locks the selected versionable" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe0mNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.showPendingChanges" commandName="Show Pending Changes" description="Show the resource in the Pending Changes view" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe02NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.cancelEditSession" commandName="Cancel Editing" description="Cancels editing of work items and switches to outline mode" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe1GNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.changeAccessControl" commandName="Change Access Control" description="Changes the access controls of the selected versionable" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe1WNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.findAllLocalChanges" commandName="Find All Local Changes" description="Find All Local Changes" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe1mNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.edit.model.find.all" commandName="Find All" description="Find All Occurrences" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe12NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.stopEditSession" commandName="Switch to Outline Mode" description="Switches the plan editor to outline mode" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe2GNREeelSsFrc2-bSg" elementId="com.google.cloud.dataflow.eclipse.ui.dataflowVersion.track" commandName="Track Latest Dataflow Version" category="_FRoQpGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe2WNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.workitems.views.navigateToWorkItem" commandName="Open Work Item" description="Opens the work item selection dialog" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe2mNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.myWork.unscheduleWork" commandName="Remove Scheduling" description="Removes the scheduling of a work item" category="_FRoQpmNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe22NREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.comment.workitem" commandName="Comment Work Item" description="Appends the transcript as comment to a work item." category="_FRoQoWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe3GNREeelSsFrc2-bSg" elementId="com.google.cloud.dataflow.eclipse.ui.dataflowNature.add" commandName="Enable Dataflow Nature" category="_FRoQpGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe3WNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.myWork.showDetails" commandName="Show Details" description="Expands or collapses the details of a work item" category="_FRoQpmNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe3mNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.openLocalFile" commandName="Open Local File" description="Opens the local file" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe32NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.move.up" commandName="Move Up" description="Moves a work item up" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe4GNREeelSsFrc2-bSg" elementId="com.ibm.team.connector.ccbridge.ide.ui.AssociateWorkItemCommand" commandName="Associate Work Items..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpe4WNREeelSsFrc2-bSg" elementId="com.ibm.team.foundation.rcp.ui.OpenArtifactFromClipboardAction" commandName="Open Team Artifact from Clipboard" category="_lRFoPtxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpe4mNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.RefreshSandboxAction.REMOTES_CHANGES" commandName="Refresh Remote Changes" description="Look up for the most recent incoming changes. Outgoing and suspended changes are also updated." category="_FRoQomNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe42NREeelSsFrc2-bSg" elementId="com.google.cloud.dataflow.eclipse.ui.dataflowVersion.update" commandName="Update Dataflow Version" category="_FRoQpGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe5GNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.checkinanddeliver" commandName="Check-in and Deliver" description="Check-in and Deliver." category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe5WNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.newPatch" commandName="Patch" description="Creates a patch for the selected versionable" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe5mNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.findAllRemoteChanges" commandName="Find All Remote Changes" description="Find All Remote Changes" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe52NREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.checkin" commandName="Check-In" description="Check-In" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe6GNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.SyncZoomAction.OUTGOING" commandName="Show Outgoing Work Items" description="Show outgoing changes grouped by work item. User can conveniently check-in and deliver changes simultaneously in multiple components." category="_FRoQomNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe6WNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.quickquery.colorize.color" commandName="Quick Colorize Color" description="Select the color used by quick colorize" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe6mNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.mail.contributor" commandName="Send Mail" description="Sends a mail to the selected users" category="_FRoQoWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe62NREeelSsFrc2-bSg" elementId="com.ibm.team.fulltext.ide.ui.SearchJazzArtifactsAction" commandName="Jazz Text Search" description="Search for Jazz artifacts on the server" category="_lRFoStxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpe7GNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.showHistory" commandName="Show History" description="Show the revision history of the currently selected file " category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe7WNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.SyncZoomAction" commandName="Zoom In / Out" description="Show changes in full view and different zoom modes" category="_FRoQomNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe7mNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.add.below" commandName="Add Work Item" description="Adds a new work item" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe72NREeelSsFrc2-bSg" elementId="com.ibm.magnolia.edit.text.bold" commandName="Bold" description="Toggle Bold Font Style" category="_lRFoOtxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpe8GNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.myWork.acceptWork" commandName="Accept Work" description="Accept work items and removes them from the inbox" category="_FRoQpmNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe8WNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.startEditSession" commandName="Switch to Edit Mode" description="Switches the plan editor to edit mode" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe8mNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.call.contributor" commandName="Call" description="Initiates a call with the selected users" category="_FRoQoWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe82NREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.annotate" commandName="Annotate" description="Annotate each line of a file with the change set that edited it" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe9GNREeelSsFrc2-bSg" elementId="com.google.cloud.dataflow.eclipse.ui.dataflowNature.remove" commandName="Disable Dataflow Nature" category="_FRoQpGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe9WNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.increaseIndent" commandName="Demote" description="Demotes a work item" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe9mNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.join.team.discussion" commandName="Join Team Discussion" description="Joins the team discussion in the selected location" category="_FRoQoWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe92NREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.accept" commandName="Accept" description="Accept" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe-GNREeelSsFrc2-bSg" elementId="com.ibm.team.internal.filesystem.ui.command.showSnapshotsInWorkspace" commandName="Show Snapshots" description="Show snapshots for the selected workspace or stream." category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe-WNREeelSsFrc2-bSg" elementId="com.google.cloud.dataflow.eclipse.ui.dataflowVersion.pin" commandName="Pin Dataflow Version" category="_FRoQpGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe-mNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ui.changes.actions.OpenConflictInExternalCompareAction" commandName="Open in E&amp;xternal Compare Tool" description="Opens the selected change in the currently configured external compare tool." category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe-2NREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.myWork.showNews" commandName="Show News" description="Shows the recent news for a work item" category="_FRoQpmNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe_GNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.myWork.openWorkItem" commandName="Open" description="Opens a work item" category="_FRoQpmNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe_WNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.wiki.addWorkItemLink" commandName="Insert Work Item Link" description="Inserts a link to a work item" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe_mNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.SyncZoomAction.INCOMING" commandName="Show Incoming Work Items" description="Show incoming changes grouped by work item. User can conveniently review all incoming work items regardless of the component they originate from." category="_FRoQomNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpe_2NREeelSsFrc2-bSg" elementId="com.ibm.team.feed.ui.ReloadAllFeedsAction" commandName="Reload All Feeds" description="Reload all news feeds." category="_FRoQqGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfAGNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.edit.referenceworkitem" commandName="Insert Work Item Link" description="Insert Link to Work Item" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfAWNREeelSsFrc2-bSg" elementId="com.ibm.team.internal.filesystem.ui.commands.showInChangeExplorer" commandName="Change Explorer" description="Examine the changes in the selected change set(s) in the Change Explorer." category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfAmNREeelSsFrc2-bSg" elementId="com.ibm.team.feed.ui.MarkReadEventLogAction" commandName="Mark Read" description="Marks the selected events of the event log in team dashboard as read." category="_FRoQqGNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfA2NREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.OpenCaptureAction" commandName="Capture Screenshot and Attach to Work Item" description="Capture Screenshot and Attach to Work Item" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfBGNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.edit.text.italic" commandName="Italic" description="Toggle Italic Font Style" category="_lRFoOtxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpfBWNREeelSsFrc2-bSg" elementId="com.ibm.ut.ic.server.lhu" commandName="Local Help Updater" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpfBmNREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.finder.query.command.quicksearch.execute" commandName="Quick Search" description="Search Terms" category="_FRoQo2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfB2NREeelSsFrc2-bSg" elementId="com.ibm.team.connector.ccbridge.ide.ui.RemoveWorkItemCommand" commandName="Remove Work Items..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpfCGNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.quickquery.filter" commandName="Quick Filter" description="Filters the work items" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfCWNREeelSsFrc2-bSg" elementId="com.ibm.team.fulltext.ide.ui.TeamArtifactHistory" commandName="Open Team Artifact History" category="_lRFoPtxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpfCmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.actions.iterationPlan.decreaseIndent" commandName="Promote" description="Promotes a work item" category="_FRoQpWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfC2NREeelSsFrc2-bSg" elementId="com.ibm.team.connector.ccbridge.ide.ui.OpenWorkItemCommand" commandName="Open Work Items" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRpfDGNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.load" commandName="Load" description="Loads the selected versionable" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfDWNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.SyncZoomAction.FULL" commandName="Show Full View" description="Show changes grouped by workspace and component. User can perform actions scoped to particular workspace or component(s) such as 'Change Flow Target'." category="_FRoQomNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRpfDmNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.extendedRichText.command" commandName="Rich Text Editor" description="Short cut overrides for rich text editor" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRqF0GNREeelSsFrc2-bSg" elementId="com.ibm.team.workitem.rcp.ui.OpenFavoritesAction" commandName="Open Team Artifact Favorite" category="_lRFoPtxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_FRqF0WNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.command.openCompareEditor" commandName="Open in Compare Editor" description="Opens the selected change in the compare editor" category="_FRoQp2NREeelSsFrc2-bSg"/>
+  <commands xmi:id="_FRqF0mNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.edit.inserthyperlink" commandName="Insert Hyper Link" description="Insert hyper link to Rich Text" category="_FRoQqWNREeelSsFrc2-bSg"/>
+  <commands xmi:id="_Fm2SsGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.rational.welcome.core.webResourcesActionSet/com.ibm.rational.welcome.core.webResources" commandName="Web Resources" description="Web Resources" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm25wGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.connector.scm.cc.ide.ui.views.SCMConnectorActionSet/com.ibm.team.connector.scm.cc.ide.ui.views.NewConnectorAction" commandName="New ClearCase Synchronized Stream" description="Create a new ClearCase Synchronized Stream" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm25wWNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.workitem.ide.ShowFeeds/com.ibm.team.feed.ui.ShowFeedsAction" commandName="Show Feeds" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm3g0GNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.filesystem.shortcuts/com.ibm.team.filesystem.actions.applypatch" commandName="Apply Patch..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm3g0WNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.filesystem.shortcuts/com.ibm.team.filesystem.ide.ui.internal.actions.search.SearchForLocksAction" commandName="File Locks..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm3g0mNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.filesystem.shortcuts/com.ibm.team.filesystem.ide.ui.internal.actions.search.SearchForChangeSetsAction" commandName="Change Sets..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm3g02NREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.filesystem.shortcuts/com.ibm.team.filesystem.ide.ui.internal.actions.search.SearchForBaselinesAction" commandName="Baselines..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm4H4GNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.filesystem.shortcuts/com.ibm.team.filesystem.ide.ui.internal.actions.search.SearchForComponentsAction" commandName="Components..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm4H4WNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.filesystem.shortcuts/com.ibm.team.filesystem.ide.ui.internal.actions.search.SearchForSnapshotsAction" commandName="Snapshots..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm4H4mNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.filesystem.shortcuts/com.ibm.team.filesystem.ide.ui.internal.actions.search.SearchForWorkspacesOrStreamsAction" commandName="Repository Workspaces or Streams..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm4u8GNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.filesystem.shortcuts.locateChangeSets/com.ibm.team.filesystem.internal.rcp.ui.workitems.lcs.actions.LocateChangeSetsAction.actionSet" commandName="Locate Change Sets..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm4u8WNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.jazzhub.client.actionSet/acceptJazzHubInvitation" commandName="Accept JazzHub Client Configuration..." description="Configure your eclipse client to work on a JazzHub project" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm4u8mNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.ui.actionSet/acceptTeamInvitation" commandName="Accept Team Invitation..." description="Accept a team invitation" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm4u82NREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.workitem.ide/com.ibm.team.workitem.NewWorkItemAction" commandName="New Work Item" description="New Work Item" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm5WAGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.workitem.ide.templates/com.ibm.team.workitem.CreateWorkItemTemplateAction" commandName="Create Template" description="Create a Template from selected Work Items" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm5WAWNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.magnolia.workitems.searchActionSet/com.ibm.magnolia.ui.findWISimilarToClipboardContents" commandName="Work Items Similar to Clipboard" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm5WAmNREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.finder.ui.quicksearchAction" commandName="Context-Aware Quick Search..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm59EGNREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.finder.ui.toolbar.quicksearchAction" commandName="Context-Aware Quick Search" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm6kIGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.magnolia.workItemEditor/com.ibm.team.workitem.extension.internal.AddBuildNoteAction" commandName="Add Build Note" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm7yQGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.enterprise.build.ui.subset.editors.BuildableSubsetEditor.viewContribution/com.ibm.team.enterprise.build.ui.data.export.ExportDataQueryResultAction.viewer" commandName="Export All..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm7yQWNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.enterprise.metadata.query.ui.viewContribution/com.ibm.team.enterprise.metadata.query.ui.action.exportAllScdQueryResultAction" commandName="Export All..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm8ZUGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.teamArtifactsNavigatorContributions/com.ibm.team.jazzhub.client.JazzHubDelegate" commandName="Manage IBM DevOps Services Projects" description="Manage IBM DevOps Services Projects" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm8ZUWNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.operationAdviceContributions/com.ibm.team.process.internal.RemoveAllOperationReportsAction" commandName="Remove All" description="Remove All" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm8ZUmNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.operationAdviceContributions/com.ibm.team.process.internal.ShowTreeAction" commandName="Show Detail Tree" description="Show Detail Tree" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm8ZU2NREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.operationAdviceContributions/com.ibm.team.process.internal.ShowFailuresOnly" commandName="Show Failures Only" description="Show Failures Only" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm8ZVGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.operationAdviceContributions/com.ibm.team.process.internal.reRunOperation" commandName="Try Again" description="Try Again" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm9AYGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.operationAdviceContributions/com.ibm.team.process.internal.overruleAdvisorAction" commandName="Overrule Precondition" description="Overrule Precondition" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm9AYWNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.operationAdviceContributions/com.ibm.team.process.internal.horizontalViewOrientation" commandName="Horizontal View Orientation" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm9AYmNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.operationAdviceContributions/com.ibm.team.process.internal.verticalViewOrientation" commandName="Vertical View Orientation" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm9AY2NREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.operationAdviceContributions/com.ibm.team.process.internal.openProcessPreferencesAction" commandName="Preferences..." category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm9ncGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.teamArtifactsNavigatorContributions/com.ibm.team.process.internal.ConnectProjectAreasAction" commandName="Manage" description="Manage Connected Project Areas" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm9ncWNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.teamArtifactsNavigatorContributions/com.ibm.team.process.internal.AcceptTeamInvitationAction" commandName="Accept Team Invitation" description="Accept Team Invitation" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm9ncmNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.projectAreaExplorerContributions/com.ibm.team.process.internal.ConnectProjectAreasAction" commandName="Manage" description="Manage Connected Project Areas" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-OgGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.projectAreaExplorerContributions/com.ibm.team.process.internal.CreateProjectAreaAction" commandName="Create" description="Create a Project Area" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-OgWNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.projectAreaExplorerContributions/com.ibm.team.process.internal.showUsersAction" commandName="Show Users" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-OgmNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.projectAreaExplorerContributions/com.ibm.team.process.internal.showProcessAreaDetailsAction" commandName="Show Process Details" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-Og2NREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.projectAreaExplorerContributions/com.ibm.team.process.internal.showMyTeamAreasAction" commandName="Show Only My Team Areas" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-1kGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.projectAreaExplorerContributions/com.ibm.team.process.internal.showArchivedAction" commandName="Show Archived" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-1kWNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.processTemplateContributions/com.ibm.team.process.internal.refreshProcessDefinitions" commandName="Refresh" description="Refresh" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-1kmNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.processTemplateContributions/com.ibm.team.process.internal.showProcessDefinitionDetailsAction" commandName="Show Process Template Details" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-1k2NREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.processTemplateContributions/com.ibm.team.process.internal.createProcessTemplateAction" commandName="Process Template" description="Create a new process template" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
+  <commands xmi:id="_Fm-1lGNREeelSsFrc2-bSg" elementId="AUTOGEN:::com.ibm.team.process.internal.processTemplateContributions/com.ibm.team.process.internal.DeployProcessDefinitions" commandName="Deploy Process Templates" description="Deploy Predefined Templates to Repository" category="_lRFoWNxXEeaS4MxMMBN7HA"/>
   <addons xmi:id="_lRFoItxXEeaS4MxMMBN7HA" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_lRFoI9xXEeaS4MxMMBN7HA" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_lRFoJNxXEeaS4MxMMBN7HA" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2900,4 +3324,13 @@
   <categories xmi:id="_lRFoWNxXEeaS4MxMMBN7HA" elementId="org.eclipse.core.commands.categories.autogenerated" name="Uncategorized" description="Commands that were either auto-generated or have no category"/>
   <categories xmi:id="_lRFoWdxXEeaS4MxMMBN7HA" elementId="org.eclipse.wst.jsdt.ui.category.refactoring" name="Refactor - JavaScript" description="JavaScript Refactoring Actions"/>
   <categories xmi:id="_FsslUAwYEeepVcVMRzWQaQ" elementId="com.google.cloud.tools.eclipse.login.commands.category" name="Google Login Category"/>
+  <categories xmi:id="_FRoQoWNREeelSsFrc2-bSg" elementId="com.ibm.team.collaboration.ui.commands" name="Collaboration" description="Team Collaboration Actions"/>
+  <categories xmi:id="_FRoQomNREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.pendingChanges.category" name="Pending Changes" description="Pending Changes"/>
+  <categories xmi:id="_FRoQo2NREeelSsFrc2-bSg" elementId="com.ibm.teamz.supa.finder" name="Finder" description="Finder Action"/>
+  <categories xmi:id="_FRoQpGNREeelSsFrc2-bSg" elementId="com.google.cloud.dataflow.eclipse.ui.menuCommands" name="Dataflow"/>
+  <categories xmi:id="_FRoQpWNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.ide.ui.internal.iterationPlanEditing" name="Plan Editor" description="Plan Editor"/>
+  <categories xmi:id="_FRoQpmNREeelSsFrc2-bSg" elementId="com.ibm.team.apt.ide.ui.internal.myWork" name="My Work View" description="My Work View"/>
+  <categories xmi:id="_FRoQp2NREeelSsFrc2-bSg" elementId="com.ibm.team.filesystem.ide.ui.category" name="Jazz Source Control" description="Jazz Source Control"/>
+  <categories xmi:id="_FRoQqGNREeelSsFrc2-bSg" elementId="com.ibm.team.feed.ui.EventLogCategory" name="Event Log" description="Event Log in Team Dashboard"/>
+  <categories xmi:id="_FRoQqWNREeelSsFrc2-bSg" elementId="com.ibm.magnolia.workitems" name="Work Item" description="Work Item Actions"/>
 </application:Application>
